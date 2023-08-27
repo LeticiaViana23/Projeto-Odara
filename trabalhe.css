@@ -1,0 +1,324 @@
+@import url('https://fonts.cdnfonts.com/css/glacial-indifference-2');
+
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(231, 65, 65);
+    background-size: 100%;
+    font-family: 'Glacial Indifference', sans-serif;
+    /* overflow-x: hidden; */
+
+}
+
+
+header {
+    /* background-color: rgba(11, 123, 226, 0.5); */
+    background-color: #228C79;
+    height: 13vh;
+    width: 100%;
+    display: flex;
+
+
+}
+
+#topo {
+    display: inline-block;
+    margin-top: 5vh;
+}
+
+#topo a {
+    text-decoration: none;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5vw;
+    color: black;
+}
+
+#topo a:hover {
+    background-color: #034b3e;
+    max-width: 4vw;
+    transition-duration: 0.6s;
+    box-shadow: 0px 30px 30px 10px rgba(95, 60, 60, 0.75);
+    color: #FAA501;
+
+
+
+
+}
+
+#logo {
+    width: 11vw;
+    height: 11vh;
+    margin-left: 1vw;
+    margin-top: 0vh;
+
+}
+
+#menu {
+    display: block;
+    list-style: none;
+    position: absolute;
+    width: 18%;
+    top: 80px;
+    right: 0px;
+    background: rgba(34, 140, 121, 0.9);
+    z-index: 1000;
+    visibility: hidden;
+    overflow-y: hidden;
+    text-align: center;
+
+
+
+
+}
+
+#menu a {
+
+    color: black;
+    text-decoration: none;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+#menu li {
+    margin-top: 5vh;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    /* box-shadow: 0px 0px 5px 5px rgba(95, 60, 60, 0.1); */
+}
+
+#btn {
+    display: block;
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 5vh 5vw;
+
+}
+
+#nav.active #menu {
+    /* height: calc(100vh - 70px); */
+    height: 50vh;
+    visibility: visible;
+    overflow-y: auto;
+}
+
+.traço {
+    content: '';
+    display: block;
+    width: 20px;
+    /* background: currentColor; */
+    margin-top: 5px;
+    border-top: 2px solid;
+}
+
+.box
+{
+    color: black;
+    position: absolute;
+    margin-top: 350px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    background-color: rgba(250, 167, 0, 0.5);
+    padding: 14px;
+    border-radius: 15px;
+    width: 50%;
+    box-shadow: 2px 2px 1px black;
+}
+
+fieldset {
+ border: 2px solid;
+ 
+}
+
+
+legend {
+    color: white;
+    box-shadow: 1px 1px 2px black;
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 8px;
+    text-shadow: 1px 1px 1px black;
+
+
+}
+
+.inputContainer {
+
+    position: relative;
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white ;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5;
+
+}
+.inputUser:focus ~ .labelInput, 
+.inputUser:valid ~ .labelInput {
+    top: -19px;
+    font-size: 12px;
+    color: rgb(11, 100, 23);
+}
+
+#data_nascimento {
+    border: none;
+    padding: 6px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+
+}
+#submit {
+   font-size: 15px;
+   margin-bottom: 5px;
+   border: none;
+   width: 80%;
+   cursor: pointer;
+   border-radius: 10px;
+   margin-left: 10%;
+}
+
+footer {
+    background-color: #228C79;
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    display: flex;
+    margin-top: 120vh;
+    
+
+}
+
+.final2 {
+    display: flex;
+    width: 40vw;
+    margin-left: 10vw;
+    margin-top: 5vh;
+}
+
+.final img {
+    width: 2vw;
+    height: 4vh;
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+
+#logo2 {
+    width: 8vw;
+    height: 7vh;
+    margin-left: 1vw;
+    margin-top: 5vh;
+
+}
+
+
+@media (max-width: 690px) {
+
+    #logo {
+        width: 26vw;
+        height: 11vh;
+        margin-left: 1vw;
+        margin-top: 0vh;
+    }
+
+    #topo {
+        display: none;
+    }
+
+
+    footer {
+        background-color: #228C79;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 50vh;
+        font-family: 'Glacial Indifference', sans-serif;
+        font-style: normal;
+        font-size: 14px;
+
+    }
+
+    .final2 {
+        display: flex;
+        width: 100%;
+        margin-left: 1vw;
+
+    }
+
+    .final img {
+        width: 6vw;
+        height: 4vh;
+    }
+
+    #logo2 {
+        width: 20vw;
+        height: 7vh;
+        margin-left: 1vw;
+        margin-top: 0vh;
+
+    }
+
+}
+
+@media (min-width: 680px) and (max-width: 1070px) {
+
+    footer {
+        
+        display: flex;
+        width: 100%;
+        font-size: 14px;
+
+    }
+
+    
+    .final2 {
+        display: flex;
+        width: 75%;
+        margin-left: 4vw;
+
+    }
+    .final{
+        width: 30%;
+    }
+
+    .final img {
+        width: 2vw;
+        height: 2vh;
+    }
+
+    #logo2 {
+        width: 10vw;
+        height: 7vh;
+        margin-left: 1vw;
+        margin-top: 0vh;
+
+    }
+
+}
