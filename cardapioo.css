@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,200;0,300;0,400;1,200&family=Bebas+Neue&family=PT+Sans+Narrow&display=swap');
+
+
+* {
+    margin: auto;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background-image: url(img/Design\ sem\ nome.png);
+
+}
+
+#log img {
+    height: 6vh;
+    width: 4vw;
+
+
+}
+
+header {
+    background-color: #FAA501;
+    /* background-color: red; */
+    height: 9vh;
+}
+
+#nave {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#sera {
+    margin-left: 31vw;
+    margin-top: 1vh;
+}
+
+#menuh {
+    justify-content: space-between;
+    margin-top: 1vh;
+}
+
+#menuh a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#sera:hover {
+    background-color: rgba(245, 31, 31, 0.274);
+    max-width: auto;
+    transition-delay: 0.1s;
+    transition-duration: 0.6s;
+    box-shadow: 0px 30px 30px 10px rgba(95, 60, 60, 0.75);
+}
+
+#menuh a:hover {
+    background-color: rgba(245, 31, 31, 0.274);
+    max-width: auto;
+    transition-delay: 0.1s;
+    transition-duration: 0.6s;
+    box-shadow: 0px 30px 30px 10px rgba(95, 60, 60, 0.75);
+}
+
+.tuc {
+    border-top: 3px solid #ddba74;
+    height: 1vh;
+    margin-top: 10vh;
+    width: 80%;
+}
+
+.toucan {
+    width: 5vw;
+    height: 10vh;
+    margin-left: 48%;
+    margin-top: 5vh;
+
+}
+
+h2 {
+
+    margin-top: 1vh;
+    color: #ddba74;
+    font-size: 40px;
+    font-family: 'Glacial Indifference', sans-serif;
+    text-align: center;
+
+}
+
+.b1 {
+    width: 50%;
+}
+
+.lan {
+    width: 90%;
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10vh;
+}
+
+.burguers {
+    width: 90%;
+    height: 35vh;
+    color: #ddba74;
+    display: inline-flex;
+    padding: 10px;
+    font-family: 'Glacial Indifference', sans-serif;
+
+}
+
+.burguers h3 {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.burguers ul li {
+    list-style-type: none;
+    margin-top: 3vh;
+    font-size: 15px;
+   
+}
+
+
+.marcadores {
+    list-style-type: none;
+    display: flex;
+}
+
+footer {
+    background-color: #FAA501;
+    display: flex;
+    margin-top: 10vh;
+    width: 100%;
+    justify-content: flex-end;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #0a0a0a;
+    font-weight: bold;
+    font-family: 'Glacial Indifference', sans-serif;
+}
+
+footer h2 {
+    color: #0a0a0a;
+    text-align: center;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 20px;
+
+
+}
+
+footer h3 {
+    color: #0a0a0a;
+    text-align: center;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 20px;
+
+}
+
+
+#meio {
+    list-style-type: none;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+#linkTopo img{
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+ 
+}
+
+@media (max-width: 600px) {
+
+    
+#log img {
+    height: 5vh;
+    width: 7vw;
+
+
+}
+
+#sera {
+    margin-left: 3vw;
+    margin-top: 1.5vh;
+}
+
+#menuh {
+    justify-content: space-between;
+    margin-left: 1vw;
+    
+    
+}
+
+#menuh a {
+    padding: 10px;
+    font-size: 18px;
+
+}
+
+.toucan {
+    width: 7vw;
+    height: 6vh;
+    margin-left: 48%;
+    margin-top: 5vh;
+
+}
+
+h2 {
+    margin-top: 1vh;
+    font-size: 30px;
+    margin-left: 2vw;
+
+}
+
+.b1 {
+    width: 50%;
+}
+
+.lan {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2vh;
+
+}
+
+.burguers {
+    width: 98%;
+    height: 35vh;
+    display: inline-flex;
+    padding: 10px;
+
+}
+.burguers2 {
+    width: 98%;
+    height: 35vh;
+    display: inline-flex;
+    padding: 10px;
+    margin-top: 2vh;
+
+}
+
+
+/* 850 1352 */
+}
+
+@media (min-width: 601px) and (max-width: 850px) {
+
+    .b2 {
+        margin-top: 10vh;
+    }
+
+    #log img {
+        height: 5vh;
+        width: 6vw;
+    
+    
+    }
+    
+    #sera {
+        margin-left: 3vw;
+        margin-top: 1.5vh;
+    }
+    
+    #menuh {
+        justify-content: space-between;
+        margin-left: 1vw;
+        margin-top: 3vh;
+        
+    }
+    
+    #menuh a {
+        padding: 10px;
+        font-size: 23px;
+    
+    }
+    .burguers {
+       margin-top: 5vh;
+    
+    }
+    .burguers2 {
+        margin-top: 5vh;
+     
+     }
+
+}
+
+@media (min-width: 850px) and (max-width: 1360px) {
+
+    #log img {
+        height: 6vh;
+        width: 5vw;
+     
+    
+    
+    }
+}
