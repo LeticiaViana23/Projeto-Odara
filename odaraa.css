@@ -1,0 +1,609 @@
+@import url('https://fonts.cdnfonts.com/css/glacial-indifference-2');
+
+* {
+    margin: auto;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(231, 65, 65);
+    background-size: 100%;
+    /* overflow-x: hidden; */
+
+}
+
+#fundo {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: #228C79;
+    height: 13vh;
+    width: 100%;
+    display: flex;
+
+
+}
+
+#topo {
+    display: inline-block;
+}
+
+#topo a {
+    text-decoration: none;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5vw;
+    color: black;
+}
+
+#topo a:hover {
+    background-color: #034b3e;
+    max-width: 5vw;
+    transition-duration: 0.6s;
+    box-shadow: 0px 30px 30px 10px rgba(95, 60, 60, 0.75);
+    color: rgb(250, 167, 0);
+
+
+
+
+}
+
+#logo {
+    width: 130px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 0px;
+
+}
+
+
+
+#cards2 {
+    height: 40vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 30vh;
+    color: rgb(0, 0, 0);
+    font-family: 'Glacial Indifference', sans-serif;
+    font-style: normal;
+}
+
+.car h1 {
+    font-size: 40px;
+    margin-top: -2vh;
+    color: rgb(250, 165, 1);
+}
+
+.car p {
+    margin-top: 5vh;
+
+}
+
+
+.car {
+    width: 45%;
+    height: 250px;
+}
+
+.carr img {
+    width: 35vw;
+    height: 70vh;
+    border-radius: 5%;
+    margin-top: -5vh;
+}
+
+#linkTopo img{
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+ 
+}
+
+
+.folha {
+    background-image: url("img/wave03.png");
+    width: 100%;
+    height: 20vh;
+    margin-top: -11vh;
+
+
+}
+
+.frase {
+    margin-top: 7vh;
+    text-align: center;
+
+}
+
+.frase h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-style: normal;
+
+
+}
+
+.frase h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 3vh;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-style: normal;
+
+
+}
+
+.frase h4 {
+
+    font-weight: bold;
+    margin-top: 3vh;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-style: normal;
+
+
+
+}
+
+
+#card {
+    display: flex;
+    padding-bottom: 70px;
+    margin-top: 10vh;
+    margin-bottom: 4vh;
+}
+
+
+
+.jeronimo {
+    margin-top: 7vh;
+    margin-left: 7vh;
+    width: 20%;
+    text-align: center;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-style: normal;
+    list-style-type: none;
+}
+
+
+.jero {
+    width: 100%;
+}
+
+.jero:hover {
+
+    opacity: 40%;
+    box-shadow: 2px 2px 3px black;
+}
+
+.linha {
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: black;
+
+}
+
+
+.tag img {
+    object-fit: cover;
+    width: 100%;
+
+}
+
+#te {
+    background-color: #00977F;
+}
+
+
+
+
+#cent {
+    margin-top: 10vh;
+    background-color: #F6e6a9;
+    width: 100%;
+    height: 50vh;
+}
+
+#fim {
+    background: url("img/wave02.png") no-repeat bottom center;
+    width: 100%;
+    height: 20vh;
+
+    margin-top: -17vh;
+}
+
+.wave-content {
+  
+    height: 10vh;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    margin-bottom: -9vh;
+
+
+}
+
+.wave1 {
+ 
+    height: 10vh;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    margin-top: -3vh;
+
+
+}
+
+
+
+.wave2 {
+
+    object-fit: cover;
+    height: 20px;
+    width: 100%;
+
+}
+
+.wave3 {
+    object-fit: cover;
+    height: 20px;
+    width: 100%;
+
+}
+
+.folha2 {
+    background-image: url("img/wave03.png");
+    width: 100%;
+    height: 20vh;
+    margin-top: -8vh;
+
+
+}
+
+.res {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 5vh;
+    margin-top: 17vh;
+
+
+}
+
+.reser {
+    width: 35%;
+    height: 35vh;
+    font-family: 'Glacial Indifference', sans-serif;
+
+
+}
+
+.reser h3 {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.reser ul li {
+    list-style-type: none;
+    margin-top: 3vh;
+    font-size: 15px;
+
+}
+
+#fundo23 {
+    background-image: url(img/fundo33.png);
+}
+
+footer {
+    background-color: #228C79;
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    display: flex;
+    margin-top: 10vh;
+
+}
+
+.final2 {
+    display: flex;
+    width: 40vw;
+    margin-left: 10vw;
+}
+
+.final img {
+    width: 2vw;
+    height: 4vh;
+    margin-left: 5vw;
+}
+
+#logo2 {
+    width: 8vw;
+    height: 7vh;
+    margin-left: 1vw;
+    margin-top: 0vh;
+
+}
+
+/* carrossel */
+
+#img_sslide {
+    height: 80%;
+    width: 100%;
+}
+
+#carrossel {
+    height: 55vh;
+    width: 100%;
+    position: relative;
+
+}
+
+#botoes_slide {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 22%;
+
+
+}
+
+/* menu hamburguer */
+
+#btn {
+    display: block;
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 5vh 5vw;
+
+}
+
+
+#menu {
+    display: block;
+    list-style: none;
+    position: absolute;
+    width: 18%;
+    top: 80px;
+    right: 0px;
+    background: rgba(34, 140, 121, 0.9);
+    z-index: 1000;
+    visibility: hidden;
+    overflow-y: hidden;
+    text-align: center;
+
+
+
+
+}
+
+#menu a {
+
+    color: black;
+    text-decoration: none;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+#menu li {
+    margin-top: 5vh;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+#nav.active #menu {
+    height: 50vh;
+    visibility: visible;
+    overflow-y: auto;
+}
+
+.traço {
+    content: '';
+    display: block;
+    width: 20px;
+    margin-top: 5px;
+    border-top: 2px solid;
+}
+
+
+@media (max-width: 690px) {
+
+    #img_sslide {
+        height: 80%;
+        width: 100%;
+    }
+    #carrossel {
+        height: 26vh;
+        width: 100%;
+    
+    }
+
+    #topo {
+        display: none;
+    }
+
+    #cards2 {
+        height: 80vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+        margin-bottom: 30vh;
+        color: rgb(0, 0, 0);
+        font-family: 'Glacial Indifference', sans-serif;
+        font-style: normal;
+    }
+
+
+    .car {
+        width: 95%;
+        height: 250px;
+        margin-left: 3vw;
+    }
+
+    .carr img {
+        width: 90%;
+        height: 60vh;
+        border-radius: 5%;
+        margin-left: 4vw;
+        margin-top: 10vh;
+    }
+
+    .frase h2 {
+
+        font-size: 25px;
+
+    }
+
+    .frase h4 {
+
+        font-size: 15px;
+
+    }
+
+    #card {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .jeronimo {
+        margin-top: 7vh;
+        margin-left: 18vh;
+        width: 50%;
+
+    }
+
+    .linha {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+
+    .res {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-top: 5vh;
+        margin-top: 17vh;
+
+
+    }
+
+    .reser {
+        width: 100%;
+        height: 35vh;
+
+
+    }
+
+    #para {
+        margin-top: 5vh;
+    }
+
+
+
+    footer {
+        background-color: #228C79;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 50vh;
+        font-family: 'Glacial Indifference', sans-serif;
+        font-style: normal;
+        font-size: 14px;
+
+    }
+
+    .final2 {
+        display: flex;
+        width: 100%;
+        margin-left: 1vw;
+
+    }
+
+    .final img {
+        width: 6vw;
+        height: 4vh;
+    }
+
+    #logo2 {
+        width: 20vw;
+        height: 7vh;
+        margin-left: 1vw;
+        margin-top: 0vh;
+
+    }
+
+}
+
+@media (min-width: 680px) and (max-width: 1070px) {
+    
+    #img_sslide {
+        height: 80%;
+        width: 100%;
+    }
+    #carrossel {
+        height: 40vh;
+        width: 100%;
+    
+    }
+
+    #topo {
+        display: none;
+    }
+
+  
+    footer {
+        
+        display: flex;
+        width: 100%;
+        font-size: 14px;
+
+    }
+
+    
+    .final2 {
+        display: flex;
+        width: 75%;
+        margin-left: 4vw;
+
+    }
+    .final{
+        width: 30%;
+    }
+
+    .final img {
+        width: 2vw;
+        height: 2vh;
+    }
+
+    #logo2 {
+        width: 10vw;
+        height: 7vh;
+        margin-left: 1vw;
+        margin-top: 0vh;
+
+    }
+
+}
